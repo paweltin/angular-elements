@@ -1,0 +1,13 @@
+.product {
+  &-active {
+    background: #eef;
+  }
+
+  &-button {
+    display: block;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    background: #aaf;
+  }
+}

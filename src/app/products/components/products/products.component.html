@@ -1,0 +1,16 @@
+<h3>{{ category }}</h3>
+
+<div>
+  <label>
+    <input type="checkbox" (change)="toggleSku($event.target.checked)" [checked]="showSku">
+    Show products SKU
+  </label>
+</div>
+
+<br>
+
+<ul class="product-list">
+  <li class="product-list-item" *ngFor="let product of products">
+    <app-product [product]="product" [showSku]="showSku"></app-product>
+  </li>
+</ul>

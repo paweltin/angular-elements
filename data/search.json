@@ -1,0 +1,17 @@
+[
+  {
+    "sku": 100002,
+    "name": "T-shirt funny",
+    "price": 19.99
+  },
+  {
+    "sku": 100005,
+    "name": "Dolor sit amet",
+    "price": 1000000
+  },
+  {
+    "sku": 100006,
+    "name": "Test test testest",
+    "price": 43.21
+  }
+]

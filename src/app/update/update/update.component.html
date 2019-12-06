@@ -1,0 +1,5 @@
+<form (ngSubmit)="onSubmit()">
+  Current value: {{currentValue$ | async}}<br>
+  <input [(ngModel)]="value" name="updateValue" placeholder="value...">
+  <button>Update</button>
+</form>

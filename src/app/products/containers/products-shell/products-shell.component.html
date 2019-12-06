@@ -1,0 +1,6 @@
+<app-products
+  [category]="'Test category'"
+  [products]="products$ | async"
+  [showSku]="showSku$ | async"
+  (checked)="toggleSku($event)"
+></app-products>

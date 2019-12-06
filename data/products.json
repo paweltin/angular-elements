@@ -1,0 +1,27 @@
+[
+  {
+    "sku": 100001,
+    "name": "Product 1",
+    "price": 123.45
+  },
+  {
+    "sku": 100002,
+    "name": "T-shirt funny",
+    "price": 19.99
+  },
+  {
+    "sku": 100003,
+    "name": "HUEL chocolate",
+    "price": 25
+  },
+  {
+    "sku": 100004,
+    "name": "Test lorem ipsum",
+    "price": 0.99
+  },
+  {
+    "sku": 100005,
+    "name": "Dolor sit amet",
+    "price": 1000000
+  }
+]

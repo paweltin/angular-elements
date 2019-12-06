@@ -1,0 +1,12 @@
+<h2>Your cart</h2>
+
+<strong>{{ amount }} {{ plural('item') }}: {{getPrice()}}</strong>
+
+<ul>
+  <li *ngFor="let product of cartProducts">
+    <app-product [product]="product" [showSku]="false" [remove]="true"></app-product>
+    Amount: {{product.amount}}
+  </li>
+</ul>
+
+<!--<button (click)="reset()">Clear cart</button>-->

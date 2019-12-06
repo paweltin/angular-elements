@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 10px 30px;
+  background: #eee;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  min-height: calc(100vh - 300px);
+  padding: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  padding: 30px;
+  background: #ddd;
+}

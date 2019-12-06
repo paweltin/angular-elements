@@ -1,0 +1,7 @@
+<div [class]="activeProduct === product.sku ? 'product-active': ''" (click)="setActiveProduct()">
+  <a href="#">{{product.name}}</a>
+  <p *ngIf="showSku">SKU: {{product.sku}}</p>
+  <p>Price: {{product.price}}</p>
+  <button class="product-button" (click)="addToCart()">Add to cart</button>
+  <button *ngIf="remove" class="product-button" (click)="removeFromCart()">Remove</button>
+</div>

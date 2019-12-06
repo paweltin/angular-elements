@@ -1,0 +1,10 @@
+<form class="container">
+  Angular element
+  <input [(ngModel)]="search" name="angular-search" type="text" (input)="loadResults()" (change)="setSearch()">
+  <button>Search</button>
+</form>
+<ul>
+  <li *ngFor="let item of searchResults$ | async">
+    <app-product [product]="item"></app-product>
+  </li>
+</ul>
